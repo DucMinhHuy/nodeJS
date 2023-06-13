@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+
+<body>
+    <form action="/update" method="post">
+        <h1>update:</h1>
+        <div>des</div>
+        <input name="des" value="<%=dataUser.des%>">
+        <input type=" text " value="<%=dataUser.id%>" hidden name="id">
+        <div><button type="submit"> save</button></div>
+    </form>
+</body>
+
+</html>
